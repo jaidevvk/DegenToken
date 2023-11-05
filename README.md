@@ -13,7 +13,12 @@ In this fourth module, I have created a contract which can mint , burn , transfe
 You can fork this repository and run the commands on gitpod. you can also download the zip code locally .
 
 ### Executing program
-
+* You will need to create a .env file and enter the missing details:
+```
+WALLET_PRIVATE_KEY=
+SNOWTRACE_API_KEY=
+```
+  
 * In order to deploy the contract to avalanche fuji testnet, run the below command:
 ```
 npx hardhat run scripts/deploy.js --network fuji
