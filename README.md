@@ -1,41 +1,38 @@
-# Project Title
+# Avalanche Fuji - Degen Token
 
-Simple overview of use/purpose.
+In this module, I deployed the degen token contract created to the avalanche fuji testnet by connecting metamask which is connected to avalanche testnet to remix.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+In this fourth module, I have created a contract which can mint , burn , transfer, redeem the items from the official Degen store . It has three items in its in-game store. This contract is verified in the avalanche testnet . I did this using gitpod along with deploying it. I was able to interact with it by pasting the deployed address.
 
 ## Getting Started
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+You can fork this repository and run the commands on gitpod. you can also download the zip code locally .
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* In order to deploy the contract to avalanche fuji testnet, run the below command:
 ```
-code blocks for commands
+npx hardhat run scripts/deploy.js --network fuji
+```
+
+* In order to verify the contract the deployed contract, run the below command:
+```
+npx hardhat verify <contract address> --netwrok fuji
 ```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+If you need some test AVAX tokens and if the faucet is not working then you can ask in the official Avalanche discord server.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Jaidev K [jaidevvk12@gmail.com]
 
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT] License - see the LICENSE.md file for details
